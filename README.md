@@ -9,6 +9,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 First control in this library to make your UX better is dropdown which is not present in iOS UIKit. 
 
+## GIF
+![alt text](https://github.com/manojshrestha/MS_FormControls/blob/master/MSDemo.gif)
+
 ## Steps to use MSDropDown
 1. Put UIView in your UI. Convert its class to MSDropDown.
 2. Set keyvalue of MSDropDown with array of model: [KeyValueModel]
