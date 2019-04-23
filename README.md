@@ -1,19 +1,29 @@
 # MS_FormControls
 
-[![CI Status](https://img.shields.io/travis/iam.manojshrestha@gmail.com/MS_FormControls.svg?style=flat)](https://travis-ci.org/iam.manojshrestha@gmail.com/MS_FormControls)
-[![Version](https://img.shields.io/cocoapods/v/MS_FormControls.svg?style=flat)](https://cocoapods.org/pods/MS_FormControls)
-[![License](https://img.shields.io/cocoapods/l/MS_FormControls.svg?style=flat)](https://cocoapods.org/pods/MS_FormControls)
-[![Platform](https://img.shields.io/cocoapods/p/MS_FormControls.svg?style=flat)](https://cocoapods.org/pods/MS_FormControls)
+[![CI Status](http://img.shields.io/travis/manojshrestha/MSFloatingButton.svg?style=flat)](https://travis-ci.org/manojshrestha/MSFloatingButton)
+[![Version](https://img.shields.io/cocoapods/v/MSFloatingButton.svg?style=flat)](http://cocoapods.org/pods/MSFloatingButton)
+[![License](https://img.shields.io/cocoapods/l/MSFloatingButton.svg?style=flat)](http://cocoapods.org/pods/MSFloatingButton)
+[![Platform](https://img.shields.io/cocoapods/p/MSFloatingButton.svg?style=flat)](http://cocoapods.org/pods/MSFloatingButton)
 
 ## Example
-
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+First control in this library to make your UX better is dropdown which is not present in iOS UIKit. 
+
+## GIF
+![alt text](https://github.com/manojshrestha/MS_FormControls/blob/master/MSDemo.gif)
+
+## Steps to use MSDropDown
+1. Put UIView in your UI. Convert its class to MSDropDown.
+2. Set keyvalue of MSDropDown with array of model: [KeyValueModel]
+3. Set isMultiSelect = true for multiselect and false for single select.
+4. Use MSDropDownDelegate Protocol in your view ans set delegate of MSDropDown View.
+5. Dropdown returns answer in function -> func dropdownSelected(tagId: Int, answer: String, value: Int, isSelected: Bool)
 
 ## Requirements
 
 ## Installation
 
-MS_FormControls is available through [CocoaPods](https://cocoapods.org). To install
+MS_FormControls is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -22,8 +32,8 @@ pod 'MS_FormControls'
 
 ## Author
 
-iam.manojshrestha@gmail.com, iam.manojshrestha@gmail.com
+Manoj Shrestha
 
 ## License
 
-MS_FormControls is available under the MIT license. See the LICENSE file for more info.
+MSFloatingButton is available under the MIT license. See the LICENSE file for more info.
