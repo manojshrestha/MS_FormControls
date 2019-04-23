@@ -1,0 +1,22 @@
+{
+  "name": "MS_FormControls",
+  "version": "0.1.0",
+  "summary": "A short description of MS_FormControls.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iam.manojshrestha@gmail.com/MS_FormControls",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iam.manojshrestha@gmail.com": "iam.manojshrestha@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/iam.manojshrestha@gmail.com/MS_FormControls.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MS_FormControls/Classes/**/*"
+}

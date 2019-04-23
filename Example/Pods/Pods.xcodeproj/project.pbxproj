@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F84B07E774C315D44F07385A9CE2965 /* MS_FormControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617D40D22C61DDEF5A26AF2865A020 /* MS_FormControls-dummy.m */; };
+		1E76E6C58913410D3E9D3A9B791DC627 /* Pods-MS_FormControls_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 812B133E7E326B297F8E9150BE16D248 /* Pods-MS_FormControls_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420B889B226F6B6D00962C0C /* MSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B8895226F6B6C00962C0C /* MSDropDown.swift */; };
+		420B889C226F6B6D00962C0C /* icoDownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 420B8896226F6B6D00962C0C /* icoDownArrow.png */; };
+		420B889D226F6B6D00962C0C /* MSDropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420B8897226F6B6D00962C0C /* MSDropDown.xib */; };
+		420B889E226F6B6D00962C0C /* SelectorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B8898226F6B6D00962C0C /* SelectorTableViewController.swift */; };
+		420B889F226F6B6D00962C0C /* KeyValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B8899226F6B6D00962C0C /* KeyValueModel.swift */; };
+		420B88A0226F6B6D00962C0C /* AlwaysShowPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420B889A226F6B6D00962C0C /* AlwaysShowPopup.swift */; };
+		47693415C8F2AF71B4432B1B9AB622BD /* Pods-MS_FormControls_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2219209C364849EC249C2718A77A13EA /* Pods-MS_FormControls_Example-dummy.m */; };
+		4BE59154C0D194E2D2823A44B84D42F3 /* Pods-MS_FormControls_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8173E745490C81F5DC803CC330E270C5 /* Pods-MS_FormControls_Tests-dummy.m */; };
+		7506B85BD05ED8B4680BA6F850AAD7A7 /* MS_FormControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AA86372951CDABAC600212F059B31D /* MS_FormControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7575B1D1C4419BDCE21E94CE86C4F708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A6D9B6835C0D146C19B4D9A00799FA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E31464326C87DCB2DFF78E5B9D252447 /* Pods-MS_FormControls_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 971A2D009190B14465C7BF581CCBF5F6 /* Pods-MS_FormControls_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F259F1AB7CCD15D219BD33D4B31D82D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A97CBACFB87E8D2A58D8C91879A4721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D80C152C632211AB548A188CE287E6C0;
+			remoteInfo = "Pods-MS_FormControls_Example";
+		};
+		6B302034D34747CA585A6657C5DF391C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811EBC52E749AF109F910C32DBDE79F3;
+			remoteInfo = MS_FormControls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B2BFD9726F480B026EE3AF52022CB4 /* Pods-MS_FormControls_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MS_FormControls_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B617D40D22C61DDEF5A26AF2865A020 /* MS_FormControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MS_FormControls-dummy.m"; sourceTree = "<group>"; };
+		1133BAE0983B88256156F9A93A0A9099 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		161CDB5A82722347140FBA0D524312AE /* Pods-MS_FormControls_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MS_FormControls_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18A0A62B3469A2D39D7FC6FAE9C260B2 /* MS_FormControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MS_FormControls.xcconfig; sourceTree = "<group>"; };
+		1E8ACFA18A1DCEC5A62DA3D7ECA5BC9C /* MS_FormControls.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MS_FormControls.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2219209C364849EC249C2718A77A13EA /* Pods-MS_FormControls_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MS_FormControls_Example-dummy.m"; sourceTree = "<group>"; };
+		35244C8ED748B232FBE7A805AE58B02F /* MS_FormControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MS_FormControls-prefix.pch"; sourceTree = "<group>"; };
+		3DC6E7A0438B94E885A4FDACBFFA30FA /* Pods-MS_FormControls_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MS_FormControls_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4081566BAB7EB8FC56E19AEA1E508391 /* Pods-MS_FormControls_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MS_FormControls_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		420B8895226F6B6C00962C0C /* MSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSDropDown.swift; sourceTree = "<group>"; };
+		420B8896226F6B6D00962C0C /* icoDownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icoDownArrow.png; sourceTree = "<group>"; };
+		420B8897226F6B6D00962C0C /* MSDropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSDropDown.xib; sourceTree = "<group>"; };
+		420B8898226F6B6D00962C0C /* SelectorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectorTableViewController.swift; sourceTree = "<group>"; };
+		420B8899226F6B6D00962C0C /* KeyValueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueModel.swift; sourceTree = "<group>"; };
+		420B889A226F6B6D00962C0C /* AlwaysShowPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlwaysShowPopup.swift; sourceTree = "<group>"; };
+		5C7A7A53E2A252CBE1961499A3C99366 /* Pods-MS_FormControls_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MS_FormControls_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4643720270432FE13CF1C19708EBF5 /* Pods-MS_FormControls_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MS_FormControls_Example.modulemap"; sourceTree = "<group>"; };
+		7236DAA8C46CBF7268D7C56CD6D90B76 /* Pods_MS_FormControls_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MS_FormControls_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE7D2D007D24A7025E7BFC4CB3248D6 /* Pods-MS_FormControls_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MS_FormControls_Example.release.xcconfig"; sourceTree = "<group>"; };
+		812B133E7E326B297F8E9150BE16D248 /* Pods-MS_FormControls_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MS_FormControls_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8173E745490C81F5DC803CC330E270C5 /* Pods-MS_FormControls_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MS_FormControls_Tests-dummy.m"; sourceTree = "<group>"; };
+		85BB1831A0DDCA2612900A0C4A4C2F28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8C23663B094BF51635820DED82B1A781 /* Pods-MS_FormControls_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MS_FormControls_Tests.modulemap"; sourceTree = "<group>"; };
+		971A2D009190B14465C7BF581CCBF5F6 /* Pods-MS_FormControls_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MS_FormControls_Example-umbrella.h"; sourceTree = "<group>"; };
+		9815D80E2FAC16CBBDB918B17092DD77 /* Pods_MS_FormControls_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MS_FormControls_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AB16A6866A51B24FE815E987BF36EA /* MS_FormControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MS_FormControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4240990F4ACF240D0A3D3CEFB053F6F /* Pods-MS_FormControls_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MS_FormControls_Example-Info.plist"; sourceTree = "<group>"; };
+		A81FEF60F284A5B5FB5A213BCE26E8EB /* Pods-MS_FormControls_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MS_FormControls_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B338680BBBF32F3FDCE5415A9661B4C9 /* MS_FormControls-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MS_FormControls-Info.plist"; sourceTree = "<group>"; };
+		B52A16238C649B47E82456C7B9F42D8A /* Pods-MS_FormControls_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MS_FormControls_Tests-Info.plist"; sourceTree = "<group>"; };
+		B5C438D7B5F62C2E9C6DC54C7A81BBE4 /* MS_FormControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MS_FormControls.modulemap; sourceTree = "<group>"; };
+		BB7E3DBB76BD5134E07469C5F8227A1C /* Pods-MS_FormControls_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MS_FormControls_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1AA86372951CDABAC600212F059B31D /* MS_FormControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MS_FormControls-umbrella.h"; sourceTree = "<group>"; };
+		F78EFB44692DEBBF0767A4578A80CD00 /* Pods-MS_FormControls_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MS_FormControls_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3305C5AF511627666FA5B3F1EB861F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7575B1D1C4419BDCE21E94CE86C4F708 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389EE1F2BDF9950839923E25E1493B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D9B6835C0D146C19B4D9A00799FA86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5C74296F4F71906E6BB6D86E618B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F259F1AB7CCD15D219BD33D4B31D82D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40537CB726A5720F4BF963473AF10081 /* Pods-MS_FormControls_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C23663B094BF51635820DED82B1A781 /* Pods-MS_FormControls_Tests.modulemap */,
+				3DC6E7A0438B94E885A4FDACBFFA30FA /* Pods-MS_FormControls_Tests-acknowledgements.markdown */,
+				03B2BFD9726F480B026EE3AF52022CB4 /* Pods-MS_FormControls_Tests-acknowledgements.plist */,
+				8173E745490C81F5DC803CC330E270C5 /* Pods-MS_FormControls_Tests-dummy.m */,
+				B52A16238C649B47E82456C7B9F42D8A /* Pods-MS_FormControls_Tests-Info.plist */,
+				812B133E7E326B297F8E9150BE16D248 /* Pods-MS_FormControls_Tests-umbrella.h */,
+				4081566BAB7EB8FC56E19AEA1E508391 /* Pods-MS_FormControls_Tests.debug.xcconfig */,
+				161CDB5A82722347140FBA0D524312AE /* Pods-MS_FormControls_Tests.release.xcconfig */,
+			);
+			name = "Pods-MS_FormControls_Tests";
+			path = "Target Support Files/Pods-MS_FormControls_Tests";
+			sourceTree = "<group>";
+		};
+		420B8894226F6B5700962C0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				420B889A226F6B6D00962C0C /* AlwaysShowPopup.swift */,
+				420B8896226F6B6D00962C0C /* icoDownArrow.png */,
+				420B8899226F6B6D00962C0C /* KeyValueModel.swift */,
+				420B8895226F6B6C00962C0C /* MSDropDown.swift */,
+				420B8897226F6B6D00962C0C /* MSDropDown.xib */,
+				420B8898226F6B6D00962C0C /* SelectorTableViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		972799E0FDE9C5AF529D72460535AF92 /* Pods-MS_FormControls_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5E4643720270432FE13CF1C19708EBF5 /* Pods-MS_FormControls_Example.modulemap */,
+				F78EFB44692DEBBF0767A4578A80CD00 /* Pods-MS_FormControls_Example-acknowledgements.markdown */,
+				A81FEF60F284A5B5FB5A213BCE26E8EB /* Pods-MS_FormControls_Example-acknowledgements.plist */,
+				2219209C364849EC249C2718A77A13EA /* Pods-MS_FormControls_Example-dummy.m */,
+				BB7E3DBB76BD5134E07469C5F8227A1C /* Pods-MS_FormControls_Example-frameworks.sh */,
+				A4240990F4ACF240D0A3D3CEFB053F6F /* Pods-MS_FormControls_Example-Info.plist */,
+				971A2D009190B14465C7BF581CCBF5F6 /* Pods-MS_FormControls_Example-umbrella.h */,
+				5C7A7A53E2A252CBE1961499A3C99366 /* Pods-MS_FormControls_Example.debug.xcconfig */,
+				7FE7D2D007D24A7025E7BFC4CB3248D6 /* Pods-MS_FormControls_Example.release.xcconfig */,
+			);
+			name = "Pods-MS_FormControls_Example";
+			path = "Target Support Files/Pods-MS_FormControls_Example";
+			sourceTree = "<group>";
+		};
+		983BC0BA8DAB6067111B55F3D4D907E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3D2A074C096953A0B3482B9C274DB9D /* MS_FormControls */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B17D6101746278BC1A023BD1A8E81ACC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				972799E0FDE9C5AF529D72460535AF92 /* Pods-MS_FormControls_Example */,
+				40537CB726A5720F4BF963473AF10081 /* Pods-MS_FormControls_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				983BC0BA8DAB6067111B55F3D4D907E4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F4469FEE8C2A25075068715FD3FD00E3 /* Products */,
+				B17D6101746278BC1A023BD1A8E81ACC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D2A074C096953A0B3482B9C274DB9D /* MS_FormControls */ = {
+			isa = PBXGroup;
+			children = (
+				420B8894226F6B5700962C0C /* Classes */,
+				F6B8A3EAD8923497C614677016670A5E /* Pod */,
+				E9A668660FFB2D32AB689D249A35C2BE /* Support Files */,
+			);
+			name = MS_FormControls;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E9A668660FFB2D32AB689D249A35C2BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5C438D7B5F62C2E9C6DC54C7A81BBE4 /* MS_FormControls.modulemap */,
+				18A0A62B3469A2D39D7FC6FAE9C260B2 /* MS_FormControls.xcconfig */,
+				0B617D40D22C61DDEF5A26AF2865A020 /* MS_FormControls-dummy.m */,
+				B338680BBBF32F3FDCE5415A9661B4C9 /* MS_FormControls-Info.plist */,
+				35244C8ED748B232FBE7A805AE58B02F /* MS_FormControls-prefix.pch */,
+				E1AA86372951CDABAC600212F059B31D /* MS_FormControls-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MS_FormControls";
+			sourceTree = "<group>";
+		};
+		F4469FEE8C2A25075068715FD3FD00E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1AB16A6866A51B24FE815E987BF36EA /* MS_FormControls.framework */,
+				9815D80E2FAC16CBBDB918B17092DD77 /* Pods_MS_FormControls_Example.framework */,
+				7236DAA8C46CBF7268D7C56CD6D90B76 /* Pods_MS_FormControls_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6B8A3EAD8923497C614677016670A5E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				85BB1831A0DDCA2612900A0C4A4C2F28 /* LICENSE */,
+				1E8ACFA18A1DCEC5A62DA3D7ECA5BC9C /* MS_FormControls.podspec */,
+				1133BAE0983B88256156F9A93A0A9099 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8ED190345EA85CF313D0A441E0F22EED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E76E6C58913410D3E9D3A9B791DC627 /* Pods-MS_FormControls_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92824850B0404F3137DA498196D054F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31464326C87DCB2DFF78E5B9D252447 /* Pods-MS_FormControls_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDFCADA688D5C7F5E3D33DF440F23F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7506B85BD05ED8B4680BA6F850AAD7A7 /* MS_FormControls-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CC516533D8F178814ABFD04E87AA7B4 /* Pods-MS_FormControls_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3143A7A070D4506ED792F5A49F33A5E2 /* Build configuration list for PBXNativeTarget "Pods-MS_FormControls_Tests" */;
+			buildPhases = (
+				8ED190345EA85CF313D0A441E0F22EED /* Headers */,
+				F3DA997AE3A1D63D1BCF2A5AA9B4937C /* Sources */,
+				389EE1F2BDF9950839923E25E1493B2B /* Frameworks */,
+				DE02405F2569D96563498BB9D0D71A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC343E9C0160CA644EB87942FE97135D /* PBXTargetDependency */,
+			);
+			name = "Pods-MS_FormControls_Tests";
+			productName = "Pods-MS_FormControls_Tests";
+			productReference = 7236DAA8C46CBF7268D7C56CD6D90B76 /* Pods_MS_FormControls_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		811EBC52E749AF109F910C32DBDE79F3 /* MS_FormControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBFD36050896471B67C6BC64C5FB0AF /* Build configuration list for PBXNativeTarget "MS_FormControls" */;
+			buildPhases = (
+				ECDFCADA688D5C7F5E3D33DF440F23F9 /* Headers */,
+				DBD892DD2F400074C0117431119D3E93 /* Sources */,
+				3305C5AF511627666FA5B3F1EB861F06 /* Frameworks */,
+				1D23B263BA441FAC964101A2F0D0016E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MS_FormControls;
+			productName = MS_FormControls;
+			productReference = A1AB16A6866A51B24FE815E987BF36EA /* MS_FormControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D80C152C632211AB548A188CE287E6C0 /* Pods-MS_FormControls_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59876FC26FEAF258D4C7E295231735B /* Build configuration list for PBXNativeTarget "Pods-MS_FormControls_Example" */;
+			buildPhases = (
+				92824850B0404F3137DA498196D054F4 /* Headers */,
+				12F836CB92D1602687230C19BF04542E /* Sources */,
+				DC5C74296F4F71906E6BB6D86E618B33 /* Frameworks */,
+				CE8C96FC4EE87ED1E51D6158CDBAEC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1B16A38E7145D28E7B5A6DF268829CE /* PBXTargetDependency */,
+			);
+			name = "Pods-MS_FormControls_Example";
+			productName = "Pods-MS_FormControls_Example";
+			productReference = 9815D80E2FAC16CBBDB918B17092DD77 /* Pods_MS_FormControls_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					811EBC52E749AF109F910C32DBDE79F3 = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F4469FEE8C2A25075068715FD3FD00E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811EBC52E749AF109F910C32DBDE79F3 /* MS_FormControls */,
+				D80C152C632211AB548A188CE287E6C0 /* Pods-MS_FormControls_Example */,
+				4CC516533D8F178814ABFD04E87AA7B4 /* Pods-MS_FormControls_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D23B263BA441FAC964101A2F0D0016E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420B889D226F6B6D00962C0C /* MSDropDown.xib in Resources */,
+				420B889C226F6B6D00962C0C /* icoDownArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8C96FC4EE87ED1E51D6158CDBAEC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE02405F2569D96563498BB9D0D71A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12F836CB92D1602687230C19BF04542E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47693415C8F2AF71B4432B1B9AB622BD /* Pods-MS_FormControls_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD892DD2F400074C0117431119D3E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420B889E226F6B6D00962C0C /* SelectorTableViewController.swift in Sources */,
+				0F84B07E774C315D44F07385A9CE2965 /* MS_FormControls-dummy.m in Sources */,
+				420B88A0226F6B6D00962C0C /* AlwaysShowPopup.swift in Sources */,
+				420B889F226F6B6D00962C0C /* KeyValueModel.swift in Sources */,
+				420B889B226F6B6D00962C0C /* MSDropDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3DA997AE3A1D63D1BCF2A5AA9B4937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE59154C0D194E2D2823A44B84D42F3 /* Pods-MS_FormControls_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC343E9C0160CA644EB87942FE97135D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MS_FormControls_Example";
+			target = D80C152C632211AB548A188CE287E6C0 /* Pods-MS_FormControls_Example */;
+			targetProxy = 3A97CBACFB87E8D2A58D8C91879A4721 /* PBXContainerItemProxy */;
+		};
+		F1B16A38E7145D28E7B5A6DF268829CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MS_FormControls;
+			target = 811EBC52E749AF109F910C32DBDE79F3 /* MS_FormControls */;
+			targetProxy = 6B302034D34747CA585A6657C5DF391C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2885541667B4E906907D9727252A9C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4081566BAB7EB8FC56E19AEA1E508391 /* Pods-MS_FormControls_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MS_FormControls_Tests/Pods-MS_FormControls_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MS_FormControls_Tests/Pods-MS_FormControls_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43583FEED6023CE2910106CBC031B1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE7D2D007D24A7025E7BFC4CB3248D6 /* Pods-MS_FormControls_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MS_FormControls_Example/Pods-MS_FormControls_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MS_FormControls_Example/Pods-MS_FormControls_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FD4435B7A3E41114DA9D484D3BFF7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A0A62B3469A2D39D7FC6FAE9C260B2 /* MS_FormControls.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MS_FormControls/MS_FormControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MS_FormControls/MS_FormControls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MS_FormControls/MS_FormControls.modulemap";
+				PRODUCT_MODULE_NAME = MS_FormControls;
+				PRODUCT_NAME = MS_FormControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ACA2FA1FB75EF5B2182B49F71CE16160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7A7A53E2A252CBE1961499A3C99366 /* Pods-MS_FormControls_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MS_FormControls_Example/Pods-MS_FormControls_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MS_FormControls_Example/Pods-MS_FormControls_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA30AA57077A2FCB14C20D9B06413771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161CDB5A82722347140FBA0D524312AE /* Pods-MS_FormControls_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MS_FormControls_Tests/Pods-MS_FormControls_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MS_FormControls_Tests/Pods-MS_FormControls_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9C41FEDF65B83C1FCC019E27799C068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A0A62B3469A2D39D7FC6FAE9C260B2 /* MS_FormControls.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MS_FormControls/MS_FormControls-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MS_FormControls/MS_FormControls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MS_FormControls/MS_FormControls.modulemap";
+				PRODUCT_MODULE_NAME = MS_FormControls;
+				PRODUCT_NAME = MS_FormControls;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3143A7A070D4506ED792F5A49F33A5E2 /* Build configuration list for PBXNativeTarget "Pods-MS_FormControls_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2885541667B4E906907D9727252A9C6F /* Debug */,
+				CA30AA57077A2FCB14C20D9B06413771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59876FC26FEAF258D4C7E295231735B /* Build configuration list for PBXNativeTarget "Pods-MS_FormControls_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA2FA1FB75EF5B2182B49F71CE16160 /* Debug */,
+				43583FEED6023CE2910106CBC031B1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBFD36050896471B67C6BC64C5FB0AF /* Build configuration list for PBXNativeTarget "MS_FormControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C41FEDF65B83C1FCC019E27799C068 /* Debug */,
+				9FD4435B7A3E41114DA9D484D3BFF7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

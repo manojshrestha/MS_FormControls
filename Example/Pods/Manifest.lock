@@ -1,0 +1,16 @@
+PODS:
+  - MS_FormControls (0.1.0)
+
+DEPENDENCIES:
+  - MS_FormControls (from `../`)
+
+EXTERNAL SOURCES:
+  MS_FormControls:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MS_FormControls: 0b46b2e0dd61d79f590ef83de427e33f623c053e
+
+PODFILE CHECKSUM: b038779c879d17ba639d31f7b9474642f38cb309
+
+COCOAPODS: 1.6.1

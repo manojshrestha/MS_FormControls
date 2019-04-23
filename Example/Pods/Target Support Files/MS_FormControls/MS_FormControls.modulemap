@@ -1,0 +1,6 @@
+framework module MS_FormControls {
+  umbrella header "MS_FormControls-umbrella.h"
+
+  export *
+  module * { export * }
+}
