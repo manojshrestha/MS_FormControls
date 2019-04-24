@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MS_FormControls'
   s.version          = '0.1.0'
+  s.swift_version = '4.2'
   s.summary          = 'iOS UI Controls for Form that are not present in default.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +31,7 @@ iOS UI Controls for Form that are not present in default. This contains dropdown
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MS_FormControls/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'MS_FormControls' => ['MS_FormControls/Assets/*.png']
