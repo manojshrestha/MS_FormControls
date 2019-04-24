@@ -39,6 +39,7 @@ class ViewController: UIViewController, MSDropDownDelegate{
         self.ddlMultiSelect.delegate = self
         self.ddlMultiSelect.keyValues = self.ddlOptions1
         self.ddlMultiSelect.isMultiSelect = true
+        //self.ddlMultiSelect.multiSelectSeparator = ", "
         // Do any additional setup after loading the view, typically from a nib.
         
         self.ddlSingleSelect.delegate = self

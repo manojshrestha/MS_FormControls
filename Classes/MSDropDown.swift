@@ -25,6 +25,7 @@ public class MSDropDown: UIView, SelectorDelegate {
     public var popUpSize  = CGSize(width: 400, height: 200)
     public var isMultiSelect = false
     public var showDoneButton = false
+    public var multiSelectSeparator = " | "
     
     public var keyValues = [KeyValueModel]()
     public weak var delegate: MSDropDownDelegate?
@@ -72,7 +73,7 @@ public class MSDropDown: UIView, SelectorDelegate {
                 title = answer
             }
             
-            let answerarray = answer.components(separatedBy: " | ")
+            let answerarray = answer.components(separatedBy: multiSelectSeparator)
             for ans in answerarray
             {
                 for keyValue in self.keyValues
@@ -150,7 +151,7 @@ public class MSDropDown: UIView, SelectorDelegate {
                 }
                 else if(ans.count > 0 && keyValue.isSelected)
                 {
-                    ans = "\(ans) | \(keyValue.value)"
+                    ans = "\(ans)\(multiSelectSeparator)\(keyValue.value)"
                 }
             }
         }
