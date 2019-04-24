@@ -8,9 +8,9 @@
 import Foundation
 public class KeyValueModel
 {
-    var key = Int()
-    var value = String()
-    var isSelected : Bool = false
+   public var key = Int()
+   public var value = String()
+   public var isSelected : Bool = false
     
     public init(key: Int, value: String, isSelected: Bool = false)
     {
