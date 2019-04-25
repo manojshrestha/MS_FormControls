@@ -32,7 +32,7 @@ public class MSDropDown: UIView, SelectorDelegate {
     
     
     @IBInspectable
-    public var borderWidth : CGFloat = 2.0
+    public var borderWidth : CGFloat = 1.0
     {
         didSet {
             layer.borderWidth = borderWidth
@@ -133,6 +133,7 @@ public class MSDropDown: UIView, SelectorDelegate {
     func selectionCompleted(keyValuesAfterSelection: [KeyValueModel]) {
         self.keyValues = keyValuesAfterSelection
         var ans = ""
+        var ansValue = -1
         for keyValue in self.keyValues
         {
             if(!isMultiSelect)
@@ -140,6 +141,7 @@ public class MSDropDown: UIView, SelectorDelegate {
                 if(keyValue.isSelected)
                 {
                     ans = keyValue.value
+                    ansValue = keyValue.key
                     break
                 }
             }
@@ -164,7 +166,7 @@ public class MSDropDown: UIView, SelectorDelegate {
         {
             isSelected = false
         }
-        delegate?.dropdownSelected(tagId: self.tag, answer: self.answer, value: 0, isSelected: isSelected)
+        delegate?.dropdownSelected(tagId: self.tag, answer: self.answer, value: ansValue, isSelected: isSelected)
     }
 }
 

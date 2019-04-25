@@ -11,7 +11,7 @@ import MS_FormControls
 
 class ViewController: UIViewController, MSDropDownDelegate{
     func dropdownSelected(tagId: Int, answer: String, value: Int, isSelected: Bool) {
-        print(answer)
+        print("\(answer) value= \(value)")
     }
     
     @IBOutlet weak var ddlMultiSelect: MSDropDown!
