@@ -19,7 +19,7 @@ class ViewController: UIViewController, MSDropDownDelegate{
     
     let dropdownSize   = CGSize(width: 400, height: 200)
     
-    let ddlOptions1 : [KeyValueModel] = [KeyValueModel(key: 1, value: "Attend next Tomorrowland"),
+    let ddlOptions1 : [KeyValueModel] = [KeyValueModel(key: 1, value: "Attend next Tomorrowland. Attend next Tomorrowland. Attend next Tomorrowland. Attend next Tomorrowland."),
                                          KeyValueModel(key: 2, value: "Swim with whale shark"),
                                          KeyValueModel(key: 3, value: "Trekking in Nepal Himalaya"),
                                          KeyValueModel(key: 4, value: "Taste all types of liquor")]

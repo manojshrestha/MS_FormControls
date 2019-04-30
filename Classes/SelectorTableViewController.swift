@@ -25,6 +25,7 @@ public class SelectorTableViewController : UITableViewController {
         self.isMultiselect = isMultiselect
         self.keyValues = keyValue
         super.init(style: .plain)
+        self.tableView.rowHeight = UITableView.automaticDimension
         switch UIDevice.current.userInterfaceIdiom {
         case .phone:
             isiPhone = true
@@ -73,6 +74,8 @@ public class SelectorTableViewController : UITableViewController {
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
         let keyValuePair = self.keyValues[indexPath.row]
         cell.textLabel?.text = keyValuePair.value
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.lineBreakMode = .byWordWrapping
         if(keyValuePair.isSelected)
         {
             cell.accessoryType = .checkmark
@@ -116,6 +119,9 @@ public class SelectorTableViewController : UITableViewController {
         return 50
     }
     
+    override public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
+    }
     
     //MARK:- Private Helper
     private func unSelectAll()

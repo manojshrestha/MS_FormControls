@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MS_FormControls'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.swift_version = '4.2'
   s.summary          = 'iOS UI Controls for Form that are not present in default.'
 
